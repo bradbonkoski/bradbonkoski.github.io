@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Community | Fitzer's House Of Code]]></title>
   <link href="http://bradbonkoski.github.io/blog/categories/community/atom.xml" rel="self"/>
   <link href="http://bradbonkoski.github.io/"/>
-  <updated>2014-01-23T18:14:51-05:00</updated>
+  <updated>2014-01-23T18:16:12-05:00</updated>
   <id>http://bradbonkoski.github.io/</id>
   <author>
     <name><![CDATA[Brad Bonkoski]]></name>
@@ -49,9 +49,10 @@ Now on to my topics.  These were ideas I came across as I work within my company
 
 
 
-<p>
-#1 – <h3>Reusable containers for Automated Testing</h3>
+<p>#1 – <h2>Reusable containers for Automated Testing</h2></p>
 
+
+<p>
 As we continue to ramp up development cycles and seek out the best practices to lower the time 
 
 difference between developer commit and production push, automated testing becomes more and 
@@ -75,9 +76,10 @@ on functional/BDD testing using behat.
 
 
 
-<p>
-#2 – <h3>Patterns and Anti-Patterns for managing Production PHP Applications</h3>
+<p>#2 – <h2>Patterns and Anti-Patterns for managing Production PHP Applications</h2></p>
 
+
+<p>
 PHP has entered the mainstream, it is not longer just running hobbyist websites or strictly CMS sites. 
 
 It is dynamic, running production quality, highly scaled web services and applications and as such 
