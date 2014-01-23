@@ -4,7 +4,7 @@
   <title><![CDATA[Fitzer's House Of Code]]></title>
   <link href="http://bradbonkoski.github.io/atom.xml" rel="self"/>
   <link href="http://bradbonkoski.github.io/"/>
-  <updated>2014-01-23T17:56:26-05:00</updated>
+  <updated>2014-01-23T18:10:43-05:00</updated>
   <id>http://bradbonkoski.github.io/</id>
   <author>
     <name><![CDATA[Brad Bonkoski]]></name>
@@ -18,14 +18,14 @@
     <link href="http://bradbonkoski.github.io/blog/2014/01/23/php-conferences-and-community/"/>
     <updated>2014-01-23T15:26:18-05:00</updated>
     <id>http://bradbonkoski.github.io/blog/2014/01/23/php-conferences-and-community</id>
-    <content type="html"><![CDATA[<p>Today PHPTEK 2014 announced it&#8217;s conference schedule and lineup, and I have to admit I was a little disappointed.
+    <content type="html"><![CDATA[<p>Today <a href="http://tek.phparch.com/">PHPTEK 2014</a> announced it&#8217;s conference schedule and lineup, and I have to admit I was a little disappointed.
 One clear reason for this is I was not selected even though I thought the submissions I offered were really good and would have been really interesting.  (I&#8217;ll list them a little later).  So, some folks mught just label me a hater and leave, but if you would, please bear with me.</p>
 
 
 
 
 <p>
-I think there are two critical aspects of technology conferences.  The first is community!  This is one of the big things for PHP and why PHP has reached the level it is currently at.  The community around PHP has been relatively strong with the proponents often speaking louder and more sensibly than the antagonists.  I love going to conferences for the community, but upon looking through the speaker lineup I see very the same faces I have seen before.  And I&#8217;m assuming based on the record number of submissions there were many new people willing and excited to present, so why are we limiting the community and the particiaption in the community.  Especially when some of the talks are in fact repeats of talks given at other conferences which recordings might be out there on youtube and the like.  To summerize, PHP as a technology should not be standing still, so a talk from 4-6 months ago should not necessarily be relavent *now*, and by limiting the community we are restricting the potential growth of the community. </p>
+I think there are two critical aspects of technology conferences.  The first is community!  This is one of the big things for PHP and why PHP has reached the level it is currently at.  The community around PHP has been relatively strong with the proponents often speaking louder and more sensibly than the antagonists.  I love going to conferences for the community, but upon looking through the speaker lineup I see very the same faces I have seen before.  I&#8217;m assuming based on the record number of submissions there were many new people willing and excited to present, so why are we in effect limiting the growth of the community?  Let&#8217;s be honest with each other, it&#8217;s not only the folks who have spoke at conferences previously who have exciting things to talk about.  This is even more so when some of the talks are in fact repeats of talks given at other conferences.  To summerize, PHP as a technology should not be standing still, so a talk from 4-6 months ago should not necessarily be relavent <b>now</b>, and by clearly giving preferential treatment to repeat speakers we are restricting the potential growth and engagment of the community. </p>
 
 
 
@@ -36,9 +36,58 @@ I think there are two critical aspects of technology conferences.  The first is 
 
 
 <p>
-Now to the second part of conferenes, and that is learning about new and exciting things.  This is somewhat vague, but to clarify it does not necessarily have to be specific to the language.  PHP as a language certainly is adopting, but many of the more exciting things coming up within the community is how you can us PHP with many other technologies to create robust, scalabale, enterprise systems.  I did see a lot of interesting talks in this regard, but I also saw the curious talks that were so beginner oriented that it&#8217;s like they are marketing to PHP newbies.  With that I have to give a spoiler.. there are much better and cheaper ways to learn PHP than going to the conference.  Bottom line, going to the conference is not going to teach you PHP.  So, not sure what the point is for some of the beginner classes.  I would much rather see more advanced topics around the language, tools, and interesting integrations that continue to pop up to re-enforce the maturity of the lanugae and suitability of the language in serious companies and enterprises. </p>
+Now to the second part of conferenes, and that is learning about new and exciting things.  This is somewhat vague, but to clarify it does not necessarily have to be specific to the language.  
+PHP as a language certainly is advancing, but many of the more exciting things coming up within the community is how you can us PHP with many other technologies to create robust, scalabale, enterprise systems.  I did see a lot of interesting talks in this regard, but I also saw the curious talks that were so beginner oriented that it&#8217;s like they are marketing to PHP newbies.  
+With that said I have to give a spoiler.. there are much better and cheaper ways to learn PHP than going to the conference.  Bottom line, going to the conference is not going to teach you PHP.  So, not sure what the point is for some of the beginner classes.  I would much rather see more advanced topics around the language, tools, and interesting integrations that continue to pop up to re-enforce the maturity of the lanugae and suitability of the language in serious companies and enterprises.   Along those lines it would be nice to seek out people who work at some of these companies to present success stories.  I&#8217;m not saying we should necessarily give favorable treatment.  I also hope the conferecnes get money out of the companies that send what amounts to a makreting pitch to use their new technologies.  You know, the token appearances you always see from Google App Engine (now for PHP), Mysql, and AWS.  I love hearing new things from them, but if I wanted their full on sales pitch I would go to Re:Invent, Google I/O, or whatever mysql conference there might be.</p>
 
 
+
+
+<p>
+Now on to my topics.  These were ideas I came across as I work within my company to enable continous deployment in safe, fast, but auditable way.  This process is certainly still being baked, but the tools that have come out of it are pretty interesting and exciting.</p>
+
+
+
+
+<p>
+#1 – Reusable containers for Automated Testing
+
+As we continue to ramp up development cycles and seek out the best practices to lower the time 
+
+difference between developer commit and production push, automated testing becomes more and 
+
+more important. One of the chief concerns with a lot of automated testing is how to ensure a pristine 
+
+environment to test within, maintaining consistency for the tests, and removing possible errors and/or 
+
+false positives manifested in a sullied environment. Containers offer a easy, lightweight, flexible way 
+
+to dynamically create pristine environments for the automated testing and just as easily remove them 
+
+to make optimal use of computing resources. This talk will provide examples and walk through how 
+
+these are set up and integrated into a Continuous Integration/Discovery pipeline, focusing specifically 
+
+on functional/BDD testing using behat.
+
+</p>
+
+
+
+
+<p>
+#2 – Patterns and Anti-Patterns for managing Production PHP Applications
+
+PHP has entered the mainstream, it is not longer just running hobbyist websites or strictly CMS sites. 
+
+It is dynamic, running production quality, highly scaled web services and applications and as such 
+
+should be treated as an invaluable production operations asset. This talk with focus on certain patterns 
+
+and anti-patterns for managing production web based applications, including Continuous Integration, 
+
+packaging, package versions, deployments, and managing/tracking change.
+</p>
 
 ]]></content>
   </entry>
