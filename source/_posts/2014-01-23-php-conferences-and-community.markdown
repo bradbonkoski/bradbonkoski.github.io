@@ -25,9 +25,9 @@ With that said I have to give a spoiler.. there are much better and cheaper ways
 <p>
 Now on to my topics.  These were ideas I came across as I work within my company to enable continous deployment in safe, fast, but auditable way.  This process is certainly still being baked, but the tools that have come out of it are pretty interesting and exciting.</p>
 
-<p>
-#1 – <h3>Reusable containers for Automated Testing</h3>
 
+<p>#1 – <h2>Reusable containers for Automated Testing</h2></p>
+<p>
 As we continue to ramp up development cycles and seek out the best practices to lower the time 
 
 difference between developer commit and production push, automated testing becomes more and 
@@ -48,9 +48,8 @@ on functional/BDD testing using behat.
 
 </p>
 
+<p>#2 – <h2>Patterns and Anti-Patterns for managing Production PHP Applications</h2></p>
 <p>
-#2 – <h3>Patterns and Anti-Patterns for managing Production PHP Applications</h3>
-
 PHP has entered the mainstream, it is not longer just running hobbyist websites or strictly CMS sites. 
 
 It is dynamic, running production quality, highly scaled web services and applications and as such 
