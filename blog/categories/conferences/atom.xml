@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Conferences | Fitzer's House Of Code]]></title>
   <link href="http://bradbonkoski.github.io/blog/categories/conferences/atom.xml" rel="self"/>
   <link href="http://bradbonkoski.github.io/"/>
-  <updated>2014-01-23T18:16:12-05:00</updated>
+  <updated>2014-01-23T18:17:19-05:00</updated>
   <id>http://bradbonkoski.github.io/</id>
   <author>
     <name><![CDATA[Brad Bonkoski]]></name>
@@ -49,7 +49,7 @@ Now on to my topics.  These were ideas I came across as I work within my company
 
 
 
-<p>#1 – <h2>Reusable containers for Automated Testing</h2></p>
+<h2>Reusable containers for Automated Testing</h2>
 
 
 <p>
@@ -76,7 +76,7 @@ on functional/BDD testing using behat.
 
 
 
-<p>#2 – <h2>Patterns and Anti-Patterns for managing Production PHP Applications</h2></p>
+<h2>Patterns and Anti-Patterns for managing Production PHP Applications</h2>
 
 
 <p>
