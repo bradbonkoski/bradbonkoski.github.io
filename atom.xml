@@ -4,7 +4,7 @@
   <title><![CDATA[Fitzer's House Of Code]]></title>
   <link href="http://bradbonkoski.github.io/atom.xml" rel="self"/>
   <link href="http://bradbonkoski.github.io/"/>
-  <updated>2014-01-23T18:12:25-05:00</updated>
+  <updated>2014-01-23T18:14:04-05:00</updated>
   <id>http://bradbonkoski.github.io/</id>
   <author>
     <name><![CDATA[Brad Bonkoski]]></name>
@@ -19,7 +19,7 @@
     <updated>2014-01-23T15:26:18-05:00</updated>
     <id>http://bradbonkoski.github.io/blog/2014/01/23/php-conferences-and-community</id>
     <content type="html"><![CDATA[<p>Today <a href="http://tek.phparch.com/">PHPTEK 2014</a> announced it&#8217;s conference schedule and lineup, and I have to admit I was a little disappointed.
-One clear reason for this is I was not selected even though I thought the submissions I offered were really good and would have been really interesting.  (I&#8217;ll list them a little later).  So, some folks mught just label me a hater and leave, but if you would, please bear with me.</p>
+One clear reason for this is I was not selected even though I thought the submissions I offered were really good and would have been really interesting.  (I&#8217;ll list them a little later).  So, some folks mught just label me a hater and leave which would be the easy way out but I urge you to hear me out instead.</p>
 
 
 
@@ -50,7 +50,7 @@ Now on to my topics.  These were ideas I came across as I work within my company
 
 
 <p>
-#1 – Reusable containers for Automated Testing
+#1 – <h3>Reusable containers for Automated Testing</h3>
 
 As we continue to ramp up development cycles and seek out the best practices to lower the time 
 
@@ -76,7 +76,7 @@ on functional/BDD testing using behat.
 
 
 <p>
-#2 – Patterns and Anti-Patterns for managing Production PHP Applications
+#2 – <h3>Patterns and Anti-Patterns for managing Production PHP Applications</h3>
 
 PHP has entered the mainstream, it is not longer just running hobbyist websites or strictly CMS sites. 
 
