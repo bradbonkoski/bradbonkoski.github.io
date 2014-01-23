@@ -10,7 +10,7 @@ categories:
 ---
 
 <p>Today <a href="http://tek.phparch.com/">PHPTEK 2014</a> announced it's conference schedule and lineup, and I have to admit I was a little disappointed.
-One clear reason for this is I was not selected even though I thought the submissions I offered were really good and would have been really interesting.  (I'll list them a little later).  So, some folks mught just label me a hater and leave, but if you would, please bear with me.</p>
+One clear reason for this is I was not selected even though I thought the submissions I offered were really good and would have been really interesting.  (I'll list them a little later).  So, some folks mught just label me a hater and leave which would be the easy way out but I urge you to hear me out instead.</p>
 
 <p>
 I think there are two critical aspects of technology conferences.  The first is community!  This is one of the big things for PHP and why PHP has reached the level it is currently at.  The community around PHP has been relatively strong with the proponents often speaking louder and more sensibly than the antagonists.  I love going to conferences for the community, but upon looking through the speaker lineup I see very the same faces I have seen before.  I'm assuming based on the record number of submissions there were many new people willing and excited to present, so why are we in effect limiting the growth of the community?  Let's be honest with each other, it's not only the folks who have spoke at conferences previously who have exciting things to talk about.  This is even more so when some of the talks are in fact repeats of talks given at other conferences.  To summerize, PHP as a technology should not be standing still, so a talk from 4-6 months ago should not necessarily be relavent <b>now</b>, and by clearly giving preferential treatment to repeat speakers we are restricting the potential growth and engagment of the community. </p>
@@ -26,7 +26,7 @@ With that said I have to give a spoiler.. there are much better and cheaper ways
 Now on to my topics.  These were ideas I came across as I work within my company to enable continous deployment in safe, fast, but auditable way.  This process is certainly still being baked, but the tools that have come out of it are pretty interesting and exciting.</p>
 
 <p>
-#1 – Reusable containers for Automated Testing
+#1 – <h3>Reusable containers for Automated Testing</h3>
 
 As we continue to ramp up development cycles and seek out the best practices to lower the time 
 
@@ -49,7 +49,7 @@ on functional/BDD testing using behat.
 </p>
 
 <p>
-#2 – Patterns and Anti-Patterns for managing Production PHP Applications
+#2 – <h3>Patterns and Anti-Patterns for managing Production PHP Applications</h3>
 
 PHP has entered the mainstream, it is not longer just running hobbyist websites or strictly CMS sites. 
 
